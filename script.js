@@ -7,7 +7,7 @@ const qsall=(element)=>{
 let modalQT = 1;
 let chave=null;
 let cart=[];
-//Listagem das pizzas
+//Listagem das pizzas!
 pizzaJson.map((item,index)=>{
     modalQT = 1;
     let pizzaItem = qs('.models .pizza-item').cloneNode(true);
